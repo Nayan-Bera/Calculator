@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(60deg,#183b2f,#0a0a0a,#31173d);
+    background: linear-gradient(-40deg,#360237,#0d0c0d,#360237);
 
 }
 .calculator{
@@ -23,22 +23,26 @@ body{
     padding: 20px;
     border-radius: 15px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(113,115,119,0.9);
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
 }
 input{
     width:  100%;
-    border: none;
     padding: 24px;
     margin: 10px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.6);
     font-size: 40px;
     text-align: right;
     cursor: pointer;
     color: #ffffff;
+    border-radius: 2dvh;
+    border: 1px solid;
+    border-color: rgba(116, 141, 148, 0.5);
+    
+    
 }
 input::placeholder{
-    color: #ffffff;
+    color: #ffffff; 
 }
 
 button{
@@ -52,6 +56,9 @@ button{
     font-size: 20px;
     box-shadow: -8px, -8px,rgba(255,255,255,0.1);
     cursor: pointer;
+    
+    
+   
 }
 .equal{
     font-family: "Poppins", sans-serif;
@@ -68,4 +75,8 @@ button{
 }
 .opr{
     color:rgb(159, 233, 41);
+}
+.align{
+    text-align: right;
+    padding-right: 23px;
 }
